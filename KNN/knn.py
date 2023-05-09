@@ -31,7 +31,7 @@ from sklearn import neighbors, metrics
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-data = pd.read_csv('SKLEARN\car_evaluation.csv')
+data = pd.read_csv('KNN\car_evaluation.csv')
 print(data.head())
 
 X = data[[
